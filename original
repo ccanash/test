@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Carlos Cañas</title>
+  </head>
+  <body>
+    <main> 
+      <h1>Carlos Cañas</h1>
+        <section>
+          <h2><i>Biografía</i></h2>
+          <p>Carlos Cañas fue uno de los mayores exponentes en la historia de la pintura de El Salvador. Se considera el precursor del arte abstracto en su país, aunque su prolífica obra se expresó en diferentes corrientes artísticas a través de los años. En2012 fue reconocido con el Premio Nacional de Cultura de El Salvador.</p>
+          
+          <h2><i>Obra</i></h2>
+          <figure>
+          <img src='https://museomarte.org/wp-content/uploads/2023/07/14-CARLOS-CAnAS.webp' alt="Una pila de cadaveres de todas las edades en color gris">
+          <figcaption>El Sumpul (1984)</figcaption>
+          </figure>
+          
+          <figure>
+            <img src='https://fadla.org/wp-content/uploads/2023/06/CARLOS-CANAS-Mujer-sentada-852x1024.jpg' alt="Dos figuras de mujeres en un fondo rosado" width="300" height="214">
+            <figcaption>Mujer Sentada (1950)</figcaption>
+          </figure>
+        </section>
+      
+      <h2><i>Compra de obra </i></h2>
+      <fieldset>
+        <legend> Quieres comprar un cuadro?</legend>
+        <label><input id="si" type="radio" name='compracuadro' value='si' checked>Si</label>
+        <label><input id="no" type="radio" name='compracuadro' value='no' >No</label>
+      </fieldset>
+      <section>
+    <br>
+    <br>
+      
+    <section>
+      <label for="email">Dejanos tu email:</label>
+      <input id="email" type="email" name='email'pattern=".+@example\.com" size="30" required>
+    </section>
+      
+    </main>
+  </body>
+</html>
